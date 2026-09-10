@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: dim_customers
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
+
+  - name: dim_products
+    description: >
+      Type-2 product dimension. Includes a product_id = -1 placeholder row for
+      order_items.product_id values with no match in the source catalogue, so
+      relationship tests against fact_order_items stay green instead of masking
+      the orphan rows.
+    columns:
+      - name: product_id
+        tests: [not_null]
+
+  - name: dim_date
+    columns:
+      - name: date_day
+        tests: [not_null, unique]
+
+  - name: dim_time_of_day
+    columns:
+      - name: hour_of_day
+        tests: [not_null, unique]
+
+  - name: fact_order_items
+    description: One row per order line item, USD-normalized, grain-checked below.
+    columns:
+      - name: order_item_id
+        tests: [not_null, unique]
+      - name: order_id
+        tests: [not_null]
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: customer_id
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_products')
+                field: product_id
+      - name: is_fx_convertible
+        tests:
+          - accepted_values:
+              arguments:
+                values: [true]
+              config:
+                severity: warn

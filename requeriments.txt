@@ -1,0 +1,15 @@
+Hey Leonardo,
+
+Here you have the job description for the Data role: Click here
+
+As the next step in our interview process, here is a link to our coding challenge:
+
+https://github.com/Prosigliere/coding-challenges/blob/main/data_engineer_design.md
+Please complete the challenge using GCP, BigQuery, and Looker/Tableau, as these are the core tools used in this role.
+
+Let me know if you have any questions about it. Try to keep the time spent working on it to 4 hours or less. Please send me a link to the github repo once ready.
+Once the challenge is complete, we will review it with the team, and schedule the technical round with you. Please, include your availability for the next week once you submit the challenge so we can get that on the calendar.
+
+ Please ensure the project runs locally after completing the code challenge, as it will be evaluated as a whole.  
+
+Here you cand find more about our client: https://shopfixacademy.com/

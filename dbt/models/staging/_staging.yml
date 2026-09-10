@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
+      - name: email
+        tests: [not_null]
+
+  - name: stg_orders
+    columns:
+      - name: order_id
+        tests: [not_null, unique]
+      - name: customer_id
+        tests: [not_null]
+      - name: is_valid_currency
+        tests:
+          - not_null
+          # Known data-quality issue: source emits non-ISO-4217 codes (XYZ/ABC/QWE)
+          # the FX API would reject. We accept and quarantine rather than fail the
+          # build -- see rpt_data_quality_exceptions -- so this only warns.
+          - accepted_values:
+              arguments:
+                values: [true]
+              config:
+                severity: warn
+
+  - name: stg_order_items
+    columns:
+      - name: order_item_id
+        tests: [not_null, unique]
+      - name: order_id
+        tests: [not_null]
+      - name: product_id
+        tests: [not_null]
+      - name: is_valid_currency
+        tests:
+          - accepted_values:
+              arguments:
+                values: [true]
+              config:
+                severity: warn
+
+  - name: stg_products
+    columns:
+      - name: product_id
+        tests: [not_null, unique]
+
+  - name: stg_fx_rates
+    columns:
+      - name: currency
+        tests: [not_null]
+      - name: rate_to_usd
+        tests: [not_null]

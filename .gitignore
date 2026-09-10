@@ -1,0 +1,17 @@
+# Research clone of Prosigliere/coding-challenges -- not part of the submission
+reference/
+
+# dbt / DuckDB local artifacts
+dbt/warehouse.duckdb
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

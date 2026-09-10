@@ -1,0 +1,51 @@
+name: "prosiglieri_ecommerce"
+version: "1.0.0"
+config-version: 2
+
+profile: "prosiglieri_ecommerce"
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+snapshot-paths: ["snapshots"]
+macro-paths: ["macros"]
+clean-targets: ["target", "dbt_packages"]
+
+seeds:
+  prosiglieri_ecommerce:
+    +schema: raw
+    raw_orders:
+      +column_types:
+        order_date: timestamp
+        _loaded_at: timestamp
+    raw_orders_batch1:
+      +column_types:
+        order_date: timestamp
+        _loaded_at: timestamp
+    raw_order_items:
+      +column_types:
+        _loaded_at: timestamp
+    raw_order_items_batch1:
+      +column_types:
+        _loaded_at: timestamp
+    raw_customers:
+      +column_types:
+        registration_date: timestamp
+    raw_fx_rates:
+      +column_types:
+        rate_date: date
+        rate: decimal(18,6)
+
+models:
+  prosiglieri_ecommerce:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      +materialized: view
+    marts:
+      +schema: marts
+      +materialized: table
+    reporting:
+      +schema: reporting
+      +materialized: view

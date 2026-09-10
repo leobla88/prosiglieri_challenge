@@ -1,0 +1,79 @@
+order_item_id,order_id,order_date,product_id,currency,line_amount_native,flag_invalid_currency_code,flag_product_id_not_in_catalogue,exception_reasons
+304,301,2024-08-01 10:15:00,-1,QWE,167.8,True,True,invalid_currency_code; product_id_not_in_catalogue
+307,304,2024-08-04 16:20:00,-1,XYZ,156.56,True,True,invalid_currency_code; product_id_not_in_catalogue
+309,306,2024-08-06 09:50:00,-1,ABC,345.81,True,True,invalid_currency_code; product_id_not_in_catalogue
+166,163,2024-08-06 12:50:00,-1,USD,445.95000000000005,False,True,product_id_not_in_catalogue
+243,240,2024-08-07 13:20:00,-1,QWE,156.5,True,True,invalid_currency_code; product_id_not_in_catalogue
+167,164,2024-08-08 09:15:00,71,XYZ,167.4,True,False,invalid_currency_code
+312,309,2024-08-09 17:55:00,-1,QWE,355.89,True,True,invalid_currency_code; product_id_not_in_catalogue
+314,311,2024-08-11 10:25:00,-1,XYZ,356.7,True,True,invalid_currency_code; product_id_not_in_catalogue
+93,90,2024-08-13 15:15:00,-1,XYZ,298.66,True,True,invalid_currency_code; product_id_not_in_catalogue
+317,314,2024-08-14 18:10:00,-1,ABC,167.7,True,True,invalid_currency_code; product_id_not_in_catalogue
+247,244,2024-08-15 09:40:00,-1,XYZ,167.96,True,True,invalid_currency_code; product_id_not_in_catalogue
+319,316,2024-08-16 11:40:00,-1,QWE,447.75,True,True,invalid_currency_code; product_id_not_in_catalogue
+322,319,2024-08-19 09:25:00,-1,XYZ,345.56,True,True,invalid_currency_code; product_id_not_in_catalogue
+173,170,2024-08-20 15:25:00,47,ABC,178.71,True,False,invalid_currency_code
+324,321,2024-08-21 11:55:00,-1,ABC,156.7,True,True,invalid_currency_code; product_id_not_in_catalogue
+250,247,2024-08-21 16:45:00,-1,ABC,345.69,True,True,invalid_currency_code; product_id_not_in_catalogue
+327,324,2024-08-24 10:40:00,-1,QWE,167.76,True,True,invalid_currency_code; product_id_not_in_catalogue
+99,96,2024-08-25 13:20:00,-1,ABC,178.89000000000001,True,True,invalid_currency_code; product_id_not_in_catalogue
+329,326,2024-08-26 12:10:00,-1,XYZ,278.96,True,True,invalid_currency_code; product_id_not_in_catalogue
+253,250,2024-08-27 15:50:00,-1,QWE,278.8,True,True,invalid_currency_code; product_id_not_in_catalogue
+331,328,2024-08-28 15:40:00,-1,ABC,345.9,True,True,invalid_currency_code; product_id_not_in_catalogue
+178,175,2024-08-30 16:40:00,-1,QWE,156.76,True,True,invalid_currency_code; product_id_not_in_catalogue
+334,331,2024-08-31 14:25:00,-1,QWE,356.8,True,True,invalid_currency_code; product_id_not_in_catalogue
+256,253,2024-09-02 14:55:00,-1,XYZ,188.94,True,True,invalid_currency_code; product_id_not_in_catalogue
+336,333,2024-09-02 15:55:00,-1,XYZ,355.95000000000005,True,True,invalid_currency_code; product_id_not_in_catalogue
+338,335,2024-09-04 18:25:00,-1,ABC,167.64000000000001,True,True,invalid_currency_code; product_id_not_in_catalogue
+340,337,2024-09-06 11:55:00,41,QWE,280.56,True,False,invalid_currency_code
+341,338,2024-09-07 17:10:00,-1,EUR,345.46,False,True,product_id_not_in_catalogue
+343,340,2024-09-09 10:40:00,-1,XYZ,188.76,True,True,invalid_currency_code; product_id_not_in_catalogue
+260,257,2024-09-10 10:35:00,-1,ABC,356.6,True,True,invalid_currency_code; product_id_not_in_catalogue
+345,342,2024-09-11 12:10:00,-1,ABC,156.66,True,True,invalid_currency_code; product_id_not_in_catalogue
+184,181,2024-09-11 14:50:00,-1,XYZ,356.26,True,True,invalid_currency_code; product_id_not_in_catalogue
+108,105,2024-09-12 10:45:00,-1,QWE,178.6,True,True,invalid_currency_code; product_id_not_in_catalogue
+347,344,2024-09-13 15:40:00,-1,QWE,298.56,True,True,invalid_currency_code; product_id_not_in_catalogue
+349,346,2024-09-15 17:10:00,-1,XYZ,167.86,True,True,invalid_currency_code; product_id_not_in_catalogue
+263,260,2024-09-16 09:40:00,-1,QWE,167.60999999999999,True,True,invalid_currency_code; product_id_not_in_catalogue
+351,348,2024-09-17 10:40:00,-1,ABC,345.75,True,True,invalid_currency_code; product_id_not_in_catalogue
+353,350,2024-09-19 12:10:00,-1,QWE,356.66,True,True,invalid_currency_code; product_id_not_in_catalogue
+189,186,2024-09-21 15:35:00,-1,ABC,167.91,True,True,invalid_currency_code; product_id_not_in_catalogue
+355,352,2024-09-21 15:40:00,-1,XYZ,167.55,True,True,invalid_currency_code; product_id_not_in_catalogue
+357,354,2024-09-23 17:10:00,-1,ABC,355.79999999999995,True,True,invalid_currency_code; product_id_not_in_catalogue
+267,264,2024-09-24 13:20:00,-1,XYZ,345.5,True,True,invalid_currency_code; product_id_not_in_catalogue
+359,356,2024-09-25 10:40:00,-1,QWE,345.5,True,True,invalid_currency_code; product_id_not_in_catalogue
+361,358,2024-09-27 12:10:00,-1,XYZ,156.6,True,True,invalid_currency_code; product_id_not_in_catalogue
+193,190,2024-09-29 11:55:00,-1,QWE,345.7,True,True,invalid_currency_code; product_id_not_in_catalogue
+363,360,2024-09-29 15:40:00,-1,ABC,188.7,True,True,invalid_currency_code; product_id_not_in_catalogue
+270,267,2024-09-30 12:25:00,-1,ABC,447.90000000000003,True,True,invalid_currency_code; product_id_not_in_catalogue
+118,115,2024-10-02 12:20:00,-1,ABC,234.6,True,True,invalid_currency_code; product_id_not_in_catalogue
+272,269,2024-10-04 14:55:00,91,QWE,167.6,True,False,invalid_currency_code
+274,271,2024-10-08 16:45:00,-1,USD,156.86,False,True,product_id_not_in_catalogue
+199,196,2024-10-11 09:45:00,-1,XYZ,356.4,True,True,invalid_currency_code; product_id_not_in_catalogue
+276,273,2024-10-12 10:35:00,82,XYZ,123.97,True,False,invalid_currency_code
+278,275,2024-10-16 12:25:00,-1,ABC,167.9,True,True,invalid_currency_code; product_id_not_in_catalogue
+204,201,2024-10-21 10:30:00,-1,ABC,156.8,True,True,invalid_currency_code; product_id_not_in_catalogue
+281,278,2024-10-22 11:30:00,-1,QWE,345.96,True,True,invalid_currency_code; product_id_not_in_catalogue
+128,125,2024-10-22 14:40:00,-1,XYZ,188.76,True,True,invalid_currency_code; product_id_not_in_catalogue
+284,281,2024-10-28 10:35:00,-1,XYZ,423.96,True,True,invalid_currency_code; product_id_not_in_catalogue
+208,205,2024-10-29 14:50:00,-1,QWE,188.49,True,True,invalid_currency_code; product_id_not_in_catalogue
+287,284,2024-11-03 09:40:00,-1,ABC,356.01,True,True,invalid_currency_code; product_id_not_in_catalogue
+212,209,2024-11-06 10:30:00,-1,XYZ,167.5,True,True,invalid_currency_code; product_id_not_in_catalogue
+289,286,2024-11-07 11:30:00,39,QWE,445.66,True,False,invalid_currency_code
+137,134,2024-11-09 11:45:00,-1,QWE,234.56,True,True,invalid_currency_code; product_id_not_in_catalogue
+292,289,2024-11-13 10:35:00,-1,XYZ,356.5,True,True,invalid_currency_code; product_id_not_in_catalogue
+216,213,2024-11-14 14:50:00,-1,ABC,345.54,True,True,invalid_currency_code; product_id_not_in_catalogue
+294,291,2024-11-17 12:25:00,-1,ABC,167.79,True,True,invalid_currency_code; product_id_not_in_catalogue
+143,140,2024-11-21 09:45:00,-1,ABC,445.71,True,True,invalid_currency_code; product_id_not_in_catalogue
+220,217,2024-11-22 10:20:00,-1,QWE,445.8,True,True,invalid_currency_code; product_id_not_in_catalogue
+297,294,2024-11-23 11:30:00,-1,QWE,345.4,True,True,invalid_currency_code; product_id_not_in_catalogue
+299,296,2024-11-27 13:20:00,-1,XYZ,188.85000000000002,True,True,invalid_currency_code; product_id_not_in_catalogue
+224,221,2024-11-30 14:40:00,-1,XYZ,447.81000000000006,True,True,invalid_currency_code; product_id_not_in_catalogue
+302,299,2024-12-03 12:25:00,-1,ABC,156.8,True,True,invalid_currency_code; product_id_not_in_catalogue
+151,148,2024-12-07 09:25:00,-1,XYZ,156.66,True,True,invalid_currency_code; product_id_not_in_catalogue
+228,225,2024-12-08 10:20:00,-1,ABC,167.85000000000002,True,True,invalid_currency_code; product_id_not_in_catalogue
+232,229,2024-12-16 14:30:00,-1,QWE,345.6,True,True,invalid_currency_code; product_id_not_in_catalogue
+157,154,2024-12-19 15:55:00,-1,QWE,298.56,True,True,invalid_currency_code; product_id_not_in_catalogue
+236,233,2024-12-24 10:50:00,-1,XYZ,356.9,True,True,invalid_currency_code; product_id_not_in_catalogue
+162,159,2024-12-29 16:30:00,87,ABC,178.88,True,False,invalid_currency_code
+239,236,2024-12-30 09:55:00,-1,ABC,355.86,True,True,invalid_currency_code; product_id_not_in_catalogue

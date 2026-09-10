@@ -1,0 +1,99 @@
+product_id,product_name,category,units_sold,revenue_usd,rank_by_volume,rank_by_revenue
+9,USB-C Hub 7-in-1,Electronics,4.0,1693.6000000000001,56,1
+15,Leather Ankle Boots,Clothing,8.0,1477.8802560000001,33,2
+8,Tablet Stand Adjustable,Electronics,4.0,1464.1696450000002,56,3
+11,Organic Cotton T-Shirt,Clothing,4.0,1390.55,56,4
+22,Mindfulness and Meditation,Books,5.0,1382.0100000000002,51,5
+23,Cooking Around the World,Books,4.0,1370.0949850000002,56,6
+37,Microfiber Cleaning Cloths,Home & Garden,8.0,1369.233084,33,7
+29,Machine Learning Fundamentals,Books,4.0,1346.00351,56,8
+35,Memory Foam Pillow,Home & Garden,4.0,1329.3292000000001,56,9
+53,Hair Styling Tool Set,Beauty & Personal Care,3.0,1293.0500000000002,70,10
+18,Athletic Leggings,Clothing,4.0,1278.5918,56,11
+75,Dashboard Camera HD,Automotive,24.0,1270.115628,6,12
+16,Cotton Hoodie Pullover,Clothing,5.0,1268.99162,51,13
+31,Ceramic Plant Pot Set,Home & Garden,4.0,1232.15,56,14
+6,Gaming Mechanical Keyboard,Electronics,3.0,1202.4425,70,15
+4,4K Webcam,Electronics,3.0,1185.1454099999999,70,16
+59,Facial Cleansing Brush,Beauty & Personal Care,8.0,1106.539064,33,17
+26,Financial Planning Basics,Books,4.0,1103.864005,56,18
+78,Car Cleaning Kit,Automotive,12.0,1072.588556,19,19
+12,Denim Jacket Classic,Clothing,4.0,1048.54814,56,20
+20,Winter Puffer Jacket,Clothing,3.0,1042.8233400000001,70,21
+27,Creative Writing Workshop,Books,8.0,1040.25712,33,22
+14,Wool Blend Sweater,Clothing,9.0,1037.65,26,23
+87,Dog Training Treats,Pet Supplies,40.0,1027.4347280000002,1,24
+32,LED String Lights,Home & Garden,3.0,1014.4022900000001,70,25
+44,Hiking Backpack 40L,Sports & Outdoors,9.0,1005.8995560000001,26,26
+60,Hair Mask Treatment,Beauty & Personal Care,6.0,1004.104414,41,27
+19,Casual Button-Down Shirt,Clothing,4.0,1002.3900000000001,56,28
+89,Automatic Pet Feeder,Pet Supplies,20.0,997.6114999999999,10,29
+7,Ergonomic Wireless Mouse,Electronics,3.0,992.49,70,30
+1,Wireless Bluetooth Headphones,Electronics,3.0,981.49,70,31
+58,Body Lotion Luxury,Beauty & Personal Care,6.0,977.6265999999999,41,32
+28,Home Gardening Encyclopedia,Books,5.0,976.5338549999999,51,33
+33,Bamboo Cutting Board,Home & Garden,5.0,975.72054,51,34
+70,Educational Tablet Kids,Toys & Games,6.0,973.468875,41,35
+41,Yoga Mat Premium,Sports & Outdoors,18.0,964.6427790000001,12,36
+2,Smart Fitness Watch,Electronics,2.0,960.2532,85,37
+21,The Art of Data Science,Books,3.0,952.17225,70,38
+17,Silk Scarf Luxury,Clothing,3.0,945.4505499999999,70,39
+56,Beard Grooming Kit,Beauty & Personal Care,6.0,862.8191999999999,41,40
+95,Document Shredder,Office Supplies,3.0,858.8499999999999,70,41
+52,Electric Toothbrush,Beauty & Personal Care,3.0,836.1821499999999,70,42
+24,Digital Photography Mastery,Books,3.0,832.35,70,43
+50,Running Armband Phone,Sports & Outdoors,6.0,829.63076,41,44
+3,Portable Bluetooth Speaker,Electronics,2.0,829.28125,85,45
+34,Essential Oil Diffuser,Home & Garden,3.0,825.835475,70,46
+46,Portable Camping Chair,Sports & Outdoors,6.0,818.639704,41,47
+54,Vitamin C Serum,Beauty & Personal Care,2.0,802.3,85,48
+40,Throw Blanket Cozy,Home & Garden,4.0,786.898794,56,49
+84,Dog Leash Retractable,Pet Supplies,27.0,783.0,3,50
+92,Ergonomic Office Chair,Office Supplies,3.0,781.5,70,51
+36,Stainless Steel Water Bottle,Home & Garden,9.0,779.220879,26,52
+73,Car Air Freshener Set,Automotive,15.0,772.07428,17,53
+49,Fishing Rod Combo,Sports & Outdoors,6.0,762.68762,41,54
+71,Car Phone Mount,Automotive,16.0,746.44912,16,55
+30,Travel Photography Tips,Books,2.0,724.7,85,56
+51,Organic Face Moisturizer,Beauty & Personal Care,2.0,724.05,85,57
+64,Puzzle 1000 Pieces,Toys & Games,24.0,722.58744,6,58
+74,Emergency Car Kit,Automotive,28.0,721.387744,2,59
+57,Nail Care Set,Beauty & Personal Care,4.0,714.76812,56,60
+25,Sustainable Living Guide,Books,3.0,703.7,70,61
+81,Dog Toy Rope,Pet Supplies,24.0,699.10088,6,62
+47,Tennis Racket Professional,Sports & Outdoors,9.0,697.114224,26,63
+42,Camping Sleeping Bag,Sports & Outdoors,6.0,696.15643,41,64
+88,Pet Grooming Brush,Pet Supplies,12.0,692.52,19,65
+5,Wireless Charging Pad,Electronics,2.0,691.65,85,66
+77,Bluetooth Car Adapter,Automotive,12.0,636.8,19,67
+48,Bike Helmet Safety,Sports & Outdoors,9.0,605.973504,26,68
+63,Remote Control Drone,Toys & Games,14.0,605.64707,18,69
+38,Solar Garden Lights,Home & Garden,4.0,591.9855940000001,56,70
+91,Desk Organizer Bamboo,Office Supplies,5.0,590.9,51,71
+76,Car Seat Organizer,Automotive,18.0,590.7,12,72
+55,Makeup Brush Set,Beauty & Personal Care,6.0,553.142064,41,73
+39,Non-Stick Cookware Set,Home & Garden,6.0,553.0395,41,74
+43,Resistance Bands Set,Sports & Outdoors,9.0,548.011329,26,75
+67,Musical Keyboard Mini,Toys & Games,12.0,534.3006,19,76
+86,Pet Carrier Soft,Pet Supplies,26.0,525.14,5,77
+69,Card Game Family Fun,Toys & Games,10.0,520.298215,24,78
+68,Action Figure Collectible,Toys & Games,12.0,519.0932160000001,19,79
+65,Art Supplies Kit Kids,Toys & Games,18.0,513.36,12,80
+13,Running Shorts Athletic,Clothing,2.0,503.1646,85,81
+79,Sunshade Windshield,Automotive,10.0,467.6445,24,82
+62,Board Game Strategy,Toys & Games,7.0,467.26486800000004,39,83
+98,Stapler Heavy Duty,Office Supplies,1.0,456.05564999999996,96,84
+94,Wireless Presenter Remote,Office Supplies,2.0,455.25,85,85
+45,Water Sports Goggles,Sports & Outdoors,9.0,452.08902,26,86
+85,Cat Litter Mat,Pet Supplies,27.0,436.31999999999994,3,87
+10,Smartphone Camera Lens Kit,Electronics,1.0,423.55,96,88
+97,Printer Paper Premium,Office Supplies,1.0,423.5,96,89
+66,Science Experiment Kit,Toys & Games,20.0,403.3505,10,90
+90,Pet Bed Orthopedic,Pet Supplies,2.0,358.75,85,91
+72,Tire Pressure Gauge,Automotive,8.0,357.48,33,92
+61,Building Blocks Creative Set,Toys & Games,7.0,356.78999999999996,39,93
+93,Standing Desk Converter,Office Supplies,2.0,346.79999999999995,85,94
+96,Whiteboard Magnetic,Office Supplies,2.0,346.2,85,95
+83,Pet Food Bowl Set,Pet Supplies,18.0,324.23967000000005,12,96
+82,Cat Scratching Post,Pet Supplies,21.0,247.24,9,97
+80,Car Floor Mats,Automotive,8.0,184.110232,33,98
